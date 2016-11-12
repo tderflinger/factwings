@@ -4,7 +4,7 @@ function importMongo {
 
 
 function traverseFolder {
-	cd factbook.json/$1
+	cd factbook-json/$1
 
 	for f in *.json; 
 	  do echo "Processing $f file.."; 
