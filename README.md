@@ -20,3 +20,6 @@ So to access the data from Germany, enter: http://localhost:3000/factbook/de
 
 It does not work with France.
 
+## Trademark
+
+Factwings is a trademark of Thomas Derflinger.
