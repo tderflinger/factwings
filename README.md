@@ -16,7 +16,7 @@ After that you can access individual countries via: http://localhost:3000/factbo
 
 So to access the data from Germany, enter: http://localhost:3000/factbook/de
 
-## Known issues
+## Known Issues
 
 It does not work with France.
 
