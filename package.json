@@ -10,5 +10,11 @@
   "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "supertest": "^2.0.1"
   }
 }

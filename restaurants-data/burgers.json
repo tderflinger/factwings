@@ -1,0 +1,341 @@
+{ 
+  "name": "Holy Burger",
+  "type": "burger",
+  "website": "http://holyburgergrill.de/",
+  "branches": [ { "id": "1",
+  				  "street": "Wörthstrasse 7",
+  				  "postalcode": "81667",
+  				  "city": "München",
+  				  "country": "de",
+  				  "tel": "089.46229355",
+  				  "email": "haidhausen@holyburgergrill.de",
+  				  "gps": "48.131741, 11.598767"	
+  				},
+  				{ "id": "2",
+  				  "street": "Dachauer Straße 7a",
+  				  "postalcode": "80335",
+  				  "city": "München",
+  				  "country": "de",
+  				  "tel": "089.18947296",
+  				  "email": "downtown@holyburgergrill.de",
+  				  "gps": "48.142489, 11.559902"	
+  				}
+  ]	
+}
+
+{ 
+	"name": "Ruff's Burger",
+	"type": "burger",
+	"website": "http://www.ruffsburger.de/",
+	"branches": [ { "id": "1",
+					  "street": "Occamstraße 4",
+					  "postalcode": "80802",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 125 98 946",
+					  "gps": "48.161591, 11.589599"
+					},
+					{ "id": "2",
+					  "street": "Rindermarkt 6",
+					  "postalcode": "80331",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 244 089 28",
+					  "gps": "48.135896, 11.574496"
+					}, 
+					{ "id": "3",
+					  "street": "Türkenstrasse 63",
+					  "postalcode": "80799",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 660 689 48",
+					  "gps": "48.151257, 11.576451"
+					}
+	]	
+}
+
+
+{ 
+	"name": "Käppchen Burgergrill",
+	"type": "burger",
+	"website": "http://www.käppchenburgergrill.de/",
+	"branches": [ { "id": "1",
+					  "street": "Lindwurmstr 139a",
+					  "postalcode": "80337",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 41144273",
+					  "email": "info@kaeppchenburgergrill.de",
+					  "gps": "48.126450, 11.552740"
+					}
+	]	
+}
+
+{ 
+	"name": "M.C. Mueller Burgerclub",
+	"type": "burger",
+	"website": "http://www.mcmueller.org/",
+	"branches": [ { "id": "1",
+					  "street": "Fraunhoferstraße 2",
+					  "postalcode": "80469",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089-189 100 39",
+					  "email": "francis@mcmueller.org",
+					  "gps": "48.131144, 11.571500"
+					}
+	]	
+}
+
+
+{ 
+	"name": "Hamburgerei",
+	"type": "burger",
+	"website": "http://www.hamburgerei.de/",
+	"branches": [ { "id": "1",
+					  "street": "Briennerstr. 49",
+					  "postalcode": "80333",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 2009 2015",
+					  "email": "reservierung-eins@hamburgerei.de",
+					  "gps": "48.146803, 11.561100"
+					},
+
+					{ "id": "2",
+					  "street": "Einsteinstrasse 106",
+					  "postalcode": "81675",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 4507 9962",
+					  "email": "reservierung-zwei@hamburgerei.de",
+					  "gps": "48.135960, 11.608900"
+					},
+
+					{ "id": "3",
+					  "street": "Ludwigstrasse 8",
+					  "postalcode": "86152",
+					  "city": "Augsburg",
+					  "country": "de",
+					  "tel": "0821 / 50 82 44 94",
+					  "email": "reservierung-augsburg@hamburgerei.de",
+					  "gps": "48.370200, 10.894910"
+					}
+	]	
+}
+
+{ 
+	"name": "Cosmogrill",
+	"type": "burger",
+	"website": "http://www.cosmogrill.de/",
+	"branches": [ { "id": "1",
+					  "street": "Maximilianstraße 10",
+					  "postalcode": "80539",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 / 89 05 96 96",
+					  "email": "info@cosmogrill.de",
+					  "gps": "48.138965, 11.580024"
+					}
+	]	
+}
+
+{ 
+	"name": "Burger & Lobster Bank",
+	"type": "burger",
+	"website": "http://burgerlobsterbank.com/",
+	"branches": [ { "id": "1",
+					  "street": "Prannerstraße 11",
+					  "postalcode": "80333",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "+49 (0) 163 / 322 476 2",
+					  "email": "event@blb-Munich.com",
+					  "gps": "48.141090, 11.572260"
+					}
+	]	
+}
+
+{ 
+	"name": "Belicious",
+	"type": "burger",
+	"website": "http://www.beliciousburger.de/",
+	"branches": [ {   "id": "1",
+					  "street": "Pariser Strasse 34",
+					  "postalcode": "81667",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 62502878",
+					  "email": "email@beliciousburger.de",
+					  "gps": "48.127768, 11.599515"
+					}
+	]	
+}
+
+{ 
+	"name": "Burger & Bier",
+	"type": "burger",
+	"website": "http://www.burger-n-bier.de/",
+	"branches": [ { "id": "1",
+					  "street": "Klenzestr. 40",
+					  "postalcode": "81469",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "+49 (0)89 7263 2644",
+					  "email": "info@burger-n-bier.de",
+					  "gps": "48.130510, 11.574012"
+					}
+	]	
+}
+
+{ 
+	"name": "Wolfsburger",
+	"type": "burger",
+	"website": "http://www.wolfs-burger.de/",
+	"branches": [ { "id": "1",
+					  "street": "Milbertshofener Str. 34",
+					  "postalcode": "80807",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089/35040600",
+					  "email": "info@wolfs-burger.de",
+					  "gps": "48.184324, 11.571276"
+					}
+	]	
+}
+
+{ 
+	"name": "Café Zeitgeist",
+	"type": "burger",
+	"type": "cafe",
+	"website": "http://www.cafe-zeitgeist.com/",
+	"branches": [ { "id": "1",
+					  "street": "Türkenstrasse 74",
+					  "postalcode": "80799",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 / 2865 9873",
+					  "email": "Cafe@089zeitgeist.de",
+					  "gps": "48.151177, 11.576741"
+					}
+	]	
+}
+
+
+{ 
+	"name": "Juleps",
+	"type": "burger",
+	"website": "http://www.juleps-munich.de/",
+	"branches": [ { "id": "1",
+					  "street": "Breisacher Strasse 18",
+					  "postalcode": "81667",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "+49 (89) 44 80 044",
+					  "email": "info@juleps-munich.de",
+					  "gps": "48.130313, 11.604898"
+					}
+	]	
+}
+
+{ 
+	"name": "Effe & Gold",
+	"type": "burger",
+	"website": "http://www.effe-gold.de/",
+	"branches": [ { "id": "1",
+					  "street": "Herzogstraße 86",
+					  "postalcode": "80796",
+					  "city": "München",
+					  "country": "de",
+					  "tel": "089 / 39 29 39 22",
+					  "gps": "48.163010, 11.572090"
+					}
+	]	
+}
+
+
+
+{ 
+	"name": "Kung Fu Burger",
+	"type": "burger",
+	"website": "http://www.kungfu-burger.com/",
+	"branches": [ { "id": "1",
+					  "street": "Speichergasse 27",
+					  "postalcode": "3011",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "031 351 36 36",
+					  "email": "CONTACT@KUNGFU-BURGER.COM"
+					}
+	]	
+}
+
+{ 
+	"name": "Beef Burger",
+	"type": "burger",
+	"website": "http://beef-burger.ch/",
+	"branches": [ { "id": "1",
+					  "street": "Schanzenstrasse 5",
+					  "postalcode": "3008",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "+41 31 310 14 00",
+					  "email": "info@beef-burger.ch"
+					},
+					{ "id": "2",
+					  "street": "Marktgasse 44",
+					  "postalcode": "3011",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "+41 31 311 71 46",
+					  "email": "info@beef-burger.ch"
+					}
+	]	
+}
+
+{ 
+	"name": "The Butcher",
+	"type": "burger",
+	"website": "https://www.butcher.ch",
+	"branches": [ { "id": "1",
+					  "street": "Aarbergergasse 36",
+					  "postalcode": "3011",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "031 555 02 60",
+					  "email": "aarbergergasse@butcher.ch"
+					}
+	]	
+}
+
+{ 
+	"name": "Indiana",
+	"type": "burger",
+	"type": "texmex",
+	"website": "http://www.restaurantindiana.ch/",
+	"branches": [ { "id": "1",
+					  "street": "Bollwerk 21",
+					  "postalcode": "3011",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "031 311 33 71",
+					  "email": "info@restaurantindiana.ch"
+					}
+	]	
+}
+
+{ 
+	"name": "Papa Joe's",
+	"type": "burger",
+	"type": "texmex",
+	"website": "http://www.papajoes.ch/",
+	"branches": [ { "id": "1",
+					  "street": "Schauplatzgasse 23",
+					  "postalcode": "3011",
+					  "city": "Bern",
+					  "country": "ch",
+					  "tel": "+41 31 310 11 55",
+					  "email": "papajoes.bern@gastrag.ch"
+					}
+	]	
+}

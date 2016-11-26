@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="RestaurantsApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" href="restaurantsStyle.css" />
+
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-filter/dist/angular-filter.js"></script>
+    <script src="bower_components/angular-http/angular-http.js"></script>
+
+
+    <script src="restaurantsService.js"></script>
+    <script src="restaurantsApp.js"></script>
+</head>
+
+<body>
+    <div class="center" ng-controller="BurgerController">
+        <label>Burger Restaurants in Munich</label>
+        <hr/>
+        <div ng-view></div> 
+        <div ng-hide="burgerListHidden" ng-repeat="burger in burgers | orderBy: 'name'">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h1>{{ burger.name }}</h1></div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p><a href="{{ burger.website }}">{{ burger.website }}</a></p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div ng-repeat="branch in burger.branches | orderBy: 'id'">      
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>{{ branch.street }}</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>{{ branch.postalcode }} {{ branch.city }}</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>Phone: {{ branch.tel }}</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <p>Email: {{ branch.email }}</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                 <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a href="#map/{{ burger._id }}/{{ branch.id }}">Show in Map</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

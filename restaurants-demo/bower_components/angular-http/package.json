@@ -1,0 +1,19 @@
+{
+  "name": "angular-http",
+  "version": "1.0.2",
+  "homepage": "https://github.com/adikari/angular-http",
+  "authors": [
+    "Subash Adhikari <me@subash.com.au>"
+  ],
+  "description": "Restful resource for angular",
+  "keywords": [
+    "angular-http",
+    "angular-rest",
+    "angular-resource"
+  ],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

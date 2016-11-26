@@ -1,0 +1,53 @@
+<div class="center">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div id="mapid"></div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h1>{{ burger.name }}</h1></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p><a href="{{ burger.website }}">{{ burger.website }}</a></p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div ng-repeat="branch in burger.branches | orderBy: 'id'">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p>{{ branch.street }}</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p>{{ branch.postalcode }} {{ branch.city }}</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p>Phone: {{ branch.tel }}</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p>Email: {{ branch.email }}</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+    </div>    
+</div>
