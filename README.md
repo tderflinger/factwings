@@ -24,6 +24,7 @@ It does not work with France.
 Factwings also has burger restaurants data of Munich and Bern.
 
 In the folder restaurants-demo is a demo application in Angular to display the burger restaurants data.
+Use restaurantsImport.sh to import the burger data in your Mongo database.
 
 ## Trademark
 
