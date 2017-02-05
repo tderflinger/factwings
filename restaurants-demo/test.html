@@ -1,0 +1,22 @@
+<head>
+
+</head>
+
+<script>
+function test(loc) {
+                console.log("in here geolocation");
+                console.log(location.coords.latitude);
+                console.log(location.coords.longitude);
+                console.log(location.coords.accuracy);
+            }
+
+function error(error) {
+	alert("error: "+error.message);
+}
+
+navigator.geolocation.getCurrentPosition(test, error);
+</script>
+
+<body>
+
+</body>
